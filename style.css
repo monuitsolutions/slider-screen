@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaiber-sliders{
+    width: 80%;
+    height: 500px;
+    border: solid 2px black;
+    box-shadow: 0px 0px 5px grey;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    transition: 1s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 2px red;
+}
