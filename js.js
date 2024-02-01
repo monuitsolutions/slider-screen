@@ -5,16 +5,16 @@ slides.forEach(
     (slide, index) =>{
         slide.style.left = `${index * 100}%`
     } 
-)
+    )
+    let previus = () =>{
+        count--
+        slideContainer()
+    }
+    let next = () =>{
+        count++
+        slideContainer()
+    }
 
-let previus = () =>{
-    count--
-    slideContainer()
-}
-let next = () =>{
-    count++
-    slideContainer()
-}
 
 let slideContainer = () =>{
     slides.forEach(
